@@ -122,8 +122,3 @@ linked_list.append(2)
 linked_list.append(3)
 linked_list.size()
 print(linked_list.size())
-
-
-
-
-
