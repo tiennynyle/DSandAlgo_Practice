@@ -77,6 +77,30 @@ def merge(list1, list2):
         tmp.next = p1
     ll = LinkedList(dummy.next)
     return ll
+# # We can use the append function in helper code:
+# def merge(list1, list2):
+#     # if list1 is empty, return list2 and vice versa
+#     if list1 is None:
+#         return list2
+#     if list2 is None:
+#         return list1
+#     # if neither are empty
+#     merged = LinkedList(None)
+#     p1 = list1.head
+#     p2 = list2.head
+#     while p1 and p2:
+#         if p1.value <= p2.value:
+#             merged.append(p1)
+#             p1 = p1.next
+#         else:
+#             merged.append(p2)
+#             p2 = p2.next
+#     if p1 is None:
+#         merged.append(p2)
+#     if p2 is None:
+#         merged.append(p1)
+#     return merged
+
 # # Test merge() function
 # linked_list = LinkedList(Node(1))
 # linked_list.append(3)
